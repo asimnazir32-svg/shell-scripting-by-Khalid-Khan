@@ -112,6 +112,23 @@ for fruit in "${fruits[@]}"
 
 Quoted `"${fruits[@]}"` expands every array item separately and safely.
 
+## Meaning of each symbol
+```bash
+"${fruits[@]}"
+```
+
+| Part     | Meaning                       |
+| -------- | ----------------------------- |
+| `$`      | Request the value             |
+| `{ }`    | Mark the variable expression  |
+| `fruits` | Array name                    |
+| `[@]`    | Select all array elements     |
+| `" "`    | Preserve each element exactly |
+
+[More Details Click Here in roman Urdu](./md/Bash-Array-At-Symbol-Roman-Urdu-Study-Notes.md)
+
+[More Details Click Here](./md/Bash-Array-At-Symbol-Study-Notes.md)
+
 ### Increase the item number
 
 ```bash
@@ -267,6 +284,8 @@ Invalid input:
 Enter a starting number: apple
 Error: enter a non-negative whole number.
 ```
+
+[Detailed Explanation](./md/Bash-Positive-Negative-Countdown-Roman-Urdu-Study-Notes.md)
 
 [Back to Table of Contents](#table-of-contents)
 
